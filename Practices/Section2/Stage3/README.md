@@ -18,7 +18,10 @@ POSTGRES_USER = "DBUSER"
 POSTGRES_DB = "DBNAME" 
 POSTGRES_PASSWORD = "DBPASS"
 ```
+
+### Spin the infrastructure
 Clone the repo and cd to ./DKN/Practices/Section2/Stage3  
+Provide terraform.tfvars file with secrets  
 Run following commands:  
 terrafom init  
 terraform plan  
